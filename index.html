@@ -3,16 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <div class="search">
-      <img
-        style="-webkit-user-select: none; margin: auto;"
-        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-      />
-      <input type="text" />
-    </div>
+    <header>
+      <div class="search">
+        <img
+          class="google-logo"
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        />
+        <div class="search-bar">
+          <input type="text" placeholder="build this webpage" />
+          <div class="search-icons">
+            <i class="icons fas fa-times"></i>
+            <i class="icons fas fa-microphone"></i>
+            <i class="icons fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+      <div class="profile">
+        <img
+          class="app-btn"
+          src="https://image.flaticon.com/icons/svg/60/60991.svg"
+          alt=""
+        />
+        <img
+          class="profile-pic"
+          src="https://lh3.googleusercontent.com/ogw/ADGmqu9_lXp1vbHkuDZUfiBzFE_cIOotWs4TsXHXWHbU=s32-c-mo"
+          alt=""
+        />
+      </div>
+    </header>
+
     <nav>
       <a>All</a>
       <a>News</a>
