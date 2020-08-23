@@ -1,6 +1,7 @@
 header {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .search {
@@ -18,7 +19,7 @@ header {
 .search-bar {
   border-radius: 24px;
   border: 1px solid;
-  width: 700px;
+
   padding: 10px;
   display: flex;
   margin-left: 25px;
@@ -57,4 +58,47 @@ header .profile-pic {
 
   width: 32px;
   height: 32px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav .left-nav {
+  display: flex;
+  /* margin: 0 0 0 auto; */
+  margin-left: 125px;
+
+  justify-content: flex-start;
+}
+
+.left-nav a {
+  padding: 0 10px;
+}
+
+.right-nav {
+  display: flex;
+
+  margin-left: auto;
+}
+
+.result-time {
+  margin-left: 125px;
+  padding: 0 10px;
+}
+
+.sites {
+  margin-left: 125px;
+  padding: 0 10px;
+  width: 60%;
+}
+
+.sites a {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.videos {
+  display: flex;
 }
