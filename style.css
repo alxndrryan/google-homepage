@@ -102,3 +102,12 @@ nav .left-nav {
 .videos {
   display: flex;
 }
+
+.videos a {
+  font-size: 18px;
+}
+
+.vid-1,
+.vid-2 {
+  margin: 10px;
+}
