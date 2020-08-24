@@ -1,3 +1,9 @@
+h3 {
+  font-size: 20px;
+  line-height: 1.3px;
+  padding: 1% 0;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -73,7 +79,8 @@ nav .left-nav {
   justify-content: flex-start;
 }
 
-.left-nav a {
+.left-nav a,
+.right-nav a {
   padding: 0 10px;
 }
 
@@ -101,13 +108,49 @@ nav .left-nav {
 
 .videos {
   display: flex;
+  width: 60%;
+  flex-direction: row;
 }
 
 .videos a {
   font-size: 18px;
+  display: block;
+  width: 90%;
 }
 
 .vid-1,
 .vid-2 {
   margin: 10px;
+}
+
+.related-searches {
+  margin-left: 125px;
+  padding: 0 10px;
+  width: 60%;
+}
+
+.related-container {
+  display: flex;
+  height: 50px;
+  flex-wrap: wrap;
+}
+
+.related-container a {
+  text-decoration: none;
+}
+
+.rel-1 {
+  width: 50%;
+}
+
+.rel-2 {
+  width: 50%;
+}
+
+.rel-3 {
+  width: 50%;
+}
+
+.rel-4 {
+  width: 50%;
 }
